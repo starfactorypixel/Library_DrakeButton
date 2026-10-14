@@ -1,0 +1,17 @@
+{
+  "name": "DrakeButton",
+  "description": "Easy SPI manager and device drivers",
+  "version": "1.0.0",
+  "repository":
+  {
+      "type": "git",
+      "url": "https://github.com/starfactorypixel/Library_DrakeButton.git"
+  },
+  "headers": ["DrakeButton.h"],
+  "dependencies": [
+	{
+	  "name": "DrakePin",
+	  "version": "https://github.com/starfactorypixel/Library_DrakePin.git"
+	}
+  ]
+}
